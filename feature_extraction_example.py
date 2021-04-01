@@ -42,7 +42,7 @@ Q=16 # The `Q` parameter controls the number of wavelets per octave in the first
 #===============
 
 # Load an audio file
-data, samplerate = sf.read('airport-barcelona-0-0-a.wav') # 10-second monaural audio.
+data, samplerate = sf.read('airport-barcelona-0-0-a.wav') # 10-second monaural audio from DCASE2020 Task1A Development Dataset.
 
 # Extract the power spectrogram
 win_length =  int(win_length_in_sec * samplerate)
