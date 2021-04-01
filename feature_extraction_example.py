@@ -1,4 +1,5 @@
 # [2021-04-01 Created by Yuzhong WU, The Chinese University of Hong Kong, Hong Kong]
+# [https://github.com/yzwu2017/TF_Decomposition/blob/main/feature_extraction_example.py]
 # Feature extraction methods for acoustic scene classification task (used in the paper https://ieeexplore.ieee.org/abstract/document/9053194)
 # 1. logmel
 # 2. wavelet filterbank feature (The so-called "scalogram" in Table 4 in the paper)
