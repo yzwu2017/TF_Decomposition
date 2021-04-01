@@ -81,6 +81,6 @@ save_TF_img(waveletFB,'waveletFB')
 median_filter_length = 101 # Suggested values are 51, 101, 201.
 waveletFB_long = scipy.signal.medfilt(waveletFB, kernel_size=[median_filter_length,1])
 waveletFB_short = waveletFB - waveletFB_long		
-# It is suggested that we use independent embedding feature extractors for each component. (reference: https://ieeexplore.ieee.org/abstract/document/9053194)
+# When CNN is the classifier, it is suggested that we use independent embedding feature extractors for each component. (reference: https://ieeexplore.ieee.org/abstract/document/9053194)
 save_TF_img(waveletFB_long,'waveletFB_long')
 save_TF_img(waveletFB_short,'waveletFB_short')
